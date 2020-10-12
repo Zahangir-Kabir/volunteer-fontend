@@ -12,7 +12,7 @@ const Register = () => {
     const [item, setItem] = useState({})
 
     const handleFormSubmit = (e) => {
-        fetch(`http://localhost:5000/addEvent`, {
+        fetch(`https://desolate-stream-03538.herokuapp.com/addEvent`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(customEvent)
@@ -45,7 +45,7 @@ const Register = () => {
     }
     
     useEffect(() => {
-        fetch(`http://localhost:5000/searchEvent/${id}`)
+        fetch(`https://desolate-stream-03538.herokuapp.com/searchEvent/${id}`)
             .then(res => res.json())
             .then(data => {
                 setItem(data)

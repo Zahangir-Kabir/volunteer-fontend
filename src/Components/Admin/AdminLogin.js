@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const AdminLogin = () => {
 
 
-        // I don't know if it will take me two more days to do it 🙄
+       
 
 
     return (

@@ -6,7 +6,7 @@ import './event.css'
 const Event = () => {
     const [event, setEvent] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/events')
+        fetch('https://desolate-stream-03538.herokuapp.com/Events')
         .then(res => res.json())
         .then(data => setEvent(data))
     },[])

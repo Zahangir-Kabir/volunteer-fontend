@@ -1,6 +1,0 @@
-#event{
-    transition: all 0.5s;
-}
-#event:hover{
-    transform:scale(1.2);
-}
