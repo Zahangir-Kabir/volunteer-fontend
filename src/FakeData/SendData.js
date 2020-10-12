@@ -17,7 +17,7 @@ const SendData = () => {
     }
     return (
         <div>
-            <button onClick={sendData}>Send Data</button>
+            
         </div>
     );
 };
